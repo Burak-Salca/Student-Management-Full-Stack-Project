@@ -143,6 +143,7 @@ src/
 ```bash
 git clone [repo-url]
 cd [proje-dizini]
+cd backend
 ```
 
 ## 2. Bağımlılıkları yükleyin:
@@ -246,12 +247,17 @@ src/
 
 ## 🚀 Projeyi Çalıştırma
 
-1. Gerekli paketlerin yüklenmesi:
+1. Yeni dosya yolunun girilmesi:
+```bash
+cd frontend
+```
+
+2. Gerekli paketlerin yüklenmesi:
 ```bash
 npm install
 ```
 
-2. Geliştirme sunucusunu başlatma:
+3. Geliştirme sunucusunu başlatma:
 ```bash
 npm run dev
 ```
